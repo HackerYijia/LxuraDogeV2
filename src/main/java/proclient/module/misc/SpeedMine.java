@@ -13,7 +13,7 @@ public class SpeedMine extends Module {
   }
   
   public void onEnable() {
-    Minecraft.getMinecraft().thePlayer.addPotionEffect(new PotionEffect(3, 999999999, 1));
+    Minecraft.getMinecraft().thePlayer.addPotionEffect(new PotionEffect(10, 999999999, 255));
   }
   
   public void onDisable() {
